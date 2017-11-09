@@ -5,10 +5,4 @@ class Anagram
   def initialize(word)
     @word = word
   end
-
-  def self.match(words)
-    words.each do |x|
-      x.split || @words
-    end    
-  end
 end
