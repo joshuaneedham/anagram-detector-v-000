@@ -7,7 +7,8 @@ class Anagram
   end
 
   def self.match(words)
-    words.each do |x| 
-      x.split || @words    
+    words.each do |x|
+      x.split || @words
+    end    
   end
 end
